@@ -1,3 +1,8 @@
+Note: in this repository, cdk bootstrap is old version install new version and do your work.
+```
+npm install --save-dev aws-cdk@latest
+```
+
 # How to setup this repository in aws from starting?
 1. download aws cli and install that aws cli
 - check it install successfully or not
