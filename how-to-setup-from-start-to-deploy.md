@@ -22,6 +22,17 @@ output:
   "Arn": "arn:aws:iam::446483464882:user/you-username"
   }
 ```
+# for changing Bucket name or cloudFormatio
+- In this File change bucket name -----> lib/image-optimization-stack.ts
+-search: new s3.Bucket(
+<img width="1073" height="596" alt="image" src="https://github.com/user-attachments/assets/6f29d3ad-4956-4026-94c6-6bee999f412c" />
+
+<img width="1023" height="515" alt="image" src="https://github.com/user-attachments/assets/0acf0e8c-4d0a-4373-812b-e6d3739a9ed1" />
+- example: 
+<img width="825" height="580" alt="image" src="https://github.com/user-attachments/assets/a0a88e1a-8af2-42d2-9415-28a1fb1ee97b" />
+<img width="815" height="662" alt="image" src="https://github.com/user-attachments/assets/3ce14eed-d683-4614-a77c-ffaecc811871" />
+
+<img width="842" height="442" alt="image" src="https://github.com/user-attachments/assets/5e48c9fd-4a2d-4ef6-8c14-1676cc2c437a" />
 
 4. for deploy this repo in aws need some tools and command:
 ```
