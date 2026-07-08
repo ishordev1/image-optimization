@@ -1,4 +1,7 @@
 Note: in this repository, cdk bootstrap is old version install new version and do your work.
+```
+npm install --save-dev aws-cdk@latest
+```
 - After deploy also configure CORS for uploading file.
 ```
 [
@@ -21,9 +24,7 @@ Note: in this repository, cdk bootstrap is old version install new version and d
     }
 ]
 ```
-```
-npm install --save-dev aws-cdk@latest
-```
+
 
 # How to setup this repository in aws from starting?
 1. download aws cli and install that aws cli
