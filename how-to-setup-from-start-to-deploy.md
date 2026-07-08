@@ -31,3 +31,5 @@ npm run build
 cdk deploy
 ```
 
+
+to see changes in aws use cloudformation
