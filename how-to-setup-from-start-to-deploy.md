@@ -23,7 +23,7 @@ output:
   }
 ```
 
-4. for deploy this repo in aws need some tools:
+4. for deploy this repo in aws need some tools and command:
 ```
 npm install
 cdk bootstrap
