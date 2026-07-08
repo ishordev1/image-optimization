@@ -22,3 +22,12 @@ output:
   "Arn": "arn:aws:iam::446483464882:user/you-username"
   }
 ```
+
+4. for deploy this repo in aws need some tools:
+```
+npm install
+cdk bootstrap
+npm run build
+cdk deploy
+```
+
