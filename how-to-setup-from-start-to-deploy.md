@@ -30,7 +30,7 @@ cdk bootstrap
 npm run build
 cdk deploy
 ```
-
+5. just hit all command and you project deploy in aws.
 
 - to see changes in aws use cloudformation
 - cloud watch <-- here in log we see all error log
