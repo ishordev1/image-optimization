@@ -32,4 +32,5 @@ cdk deploy
 ```
 
 
-to see changes in aws use cloudformation
+- to see changes in aws use cloudformation
+- cloud watch <-- here in log we see all error log
