@@ -1,4 +1,26 @@
 Note: in this repository, cdk bootstrap is old version install new version and do your work.
+- After deploy also configure CORS for uploading file.
+```
+[
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "GET",
+            "PUT",
+            "HEAD"
+        ],
+        "AllowedOrigins": [
+            "http://localhost:3000"
+        ],
+        "ExposeHeaders": [
+            "ETag"
+        ],
+        "MaxAgeSeconds": 3000
+    }
+]
+```
 ```
 npm install --save-dev aws-cdk@latest
 ```
